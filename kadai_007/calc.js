@@ -3,7 +3,7 @@ let num = Math.floor(Math.random() * 20);
 console.log(num);
 
 if (num == 0){
-  console.log('num');
+  console.log(num);
 }
 
 else if (num % 3 == 0 && num % 5 == 0) {
@@ -19,5 +19,5 @@ else if (num % 5 == 0) {
 }
 
 else {
-  console.log('num');
+  console.log(num);
 }
