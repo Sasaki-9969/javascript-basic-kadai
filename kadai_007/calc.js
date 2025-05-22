@@ -1,12 +1,8 @@
-let num = Math.floor(Math.random() * 20);
+let num = Math.floor(Math.random() * 20) + 1;
 
 console.log(num);
 
-if (num == 0){
-  console.log(num);
-}
-
-else if (num % 3 == 0 && num % 5 == 0) {
+if (num % 3 == 0 && num % 5 == 0) {
   console.log('3と5の倍数です');
 }
 
