@@ -14,7 +14,7 @@ if (num === 4) {
   console.log('大当たりです');
 }
 
-else if (num ===3){
+else if (num ===3 ) {
   console.log('当たりです');
 }
 
